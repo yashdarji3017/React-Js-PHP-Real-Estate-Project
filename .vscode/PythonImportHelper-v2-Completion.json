@@ -1,0 +1,38 @@
+[
+    {
+        "label": "request",
+        "kind": 2,
+        "importPath": "api.vendor.rmccue.requests.tests.utils.proxy.proxy",
+        "description": "api.vendor.rmccue.requests.tests.utils.proxy.proxy",
+        "peekOfCode": "def request(flow):\n\tflow.request.headers[\"x-requests-proxy\"] = \"http\"\ndef response(flow):\n\tflow.response.headers[b\"x-requests-proxied\"] = \"http\"",
+        "detail": "api.vendor.rmccue.requests.tests.utils.proxy.proxy",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 2,
+        "importPath": "api.vendor.rmccue.requests.tests.utils.proxy.proxy",
+        "description": "api.vendor.rmccue.requests.tests.utils.proxy.proxy",
+        "peekOfCode": "def response(flow):\n\tflow.response.headers[b\"x-requests-proxied\"] = \"http\"",
+        "detail": "api.vendor.rmccue.requests.tests.utils.proxy.proxy",
+        "documentation": {}
+    },
+    {
+        "label": "\tflow.request.headers[\"x-requests-proxy\"]",
+        "kind": 5,
+        "importPath": "api.vendor.rmccue.requests.tests.utils.proxy.proxy",
+        "description": "api.vendor.rmccue.requests.tests.utils.proxy.proxy",
+        "peekOfCode": "\tflow.request.headers[\"x-requests-proxy\"] = \"http\"\ndef response(flow):\n\tflow.response.headers[b\"x-requests-proxied\"] = \"http\"",
+        "detail": "api.vendor.rmccue.requests.tests.utils.proxy.proxy",
+        "documentation": {}
+    },
+    {
+        "label": "\tflow.response.headers[b\"x-requests-proxied\"]",
+        "kind": 5,
+        "importPath": "api.vendor.rmccue.requests.tests.utils.proxy.proxy",
+        "description": "api.vendor.rmccue.requests.tests.utils.proxy.proxy",
+        "peekOfCode": "\tflow.response.headers[b\"x-requests-proxied\"] = \"http\"",
+        "detail": "api.vendor.rmccue.requests.tests.utils.proxy.proxy",
+        "documentation": {}
+    }
+]

@@ -1,0 +1,20 @@
+{
+    "SERVER_URL":"http://localhost/api/",
+    "CATEGORY_IMAGE":"http://localhost/api/uploads/category/",
+    "ARCHITECH_IMAGE":"http://localhost/api/uploads/architechaadharprofile/",
+    "ARCHITECH_IMAGES":"http://localhost/api/uploads/architechaadharprofile/aadhar/",
+    "PORTFOLIO_IMAGE":"http://localhost/api/uploads/portfolio/",
+    "USER_IMAGE":"http://localhost/api/uploads/useraadharprofile/",
+    "USER_IMAGES":"http://localhost/api/uploads/useraadharprofile/aadhar/",
+    "PLAN_IMAGE":"http://localhost/api/uploads/planphoto/",
+    "PLAN_IMAGES":"http://localhost/api/uploads/planphoto/planfile/",
+    "PROJECT_IMAGE":"http://localhost/api/uploads/project/",
+    "PROJECT_IMAGES":"http://localhost/api/uploads/project/file/",
+    "MEDIA_IMAGE":"http://localhost/api/uploads/media/",
+    "PROPERTY_IMAGE":"http://localhost/api/uploads/property/",
+    "PROPERTY_IMAGES":"http://localhost/api/uploads/property/file/",
+    "FACILIY_IMAGE":"http://localhost/api/uploads/facilities/",
+    "ARTICLE_IMAGE":"http://localhost/api/uploads/articles/",
+    "ARTICLE_IMAGES":"http://localhost/api/uploads/articles/file/"
+     
+}
